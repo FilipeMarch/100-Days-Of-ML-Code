@@ -4,21 +4,35 @@ Welcome to my personal 100 days ML-code challenge!
 As this is the first day, I'll be reviewing all the syntax and semantics of the programming language R!
 
 ● The basic concepts about the language R: 
-○ Introduction
-○ Expressions
-○ Vectors and vectorization
-○ Matrices
-○ Funtions
-○ Lists
-○ Archives
-○ Plot
+○ Introduction.
+○ Expressions.
+○ Vectors and vectorization.
+○ Matrices.
+○ Funtions.
+○ Lists.
+○ Archives.
+○ Plot.
 
                                   Introduction - What's R?
 
 ○ It is a programming environment to deal with data analysis, calculations and graphical visualization;
 ○ Free!
-○ Available for Windows, MacOS, Linux
+○ Available for Windows, MacOS, Linux;
 ○ Download and other info: http://cran.r-project.org/
+
+                                  How to open R?
+                                
+○ Windows: double-click the R icon.
+○ Linux: using a terminal, just enter the R command.
+//Type 'q()' to quit R.
+
+                                  R interpreter
+                                  
+○ Commands are typed at the R command prompt ">".
+○ This prompt indicates that R is waiting for you type a command.
+○ You can type an R command at the prompt and press [Enter] to execute it.
+○ Using the "" key you can navigate through the history of commands typed at the prompt.
+
 
 
 
@@ -27,18 +41,31 @@ As this is the first day, I'll be reviewing all the syntax and semantics of the 
 
 [Portuguese]
 ● Os conceitos básicos da linguagem R:
-○ Introdução
-○ Expressões
-○ Vetores e vetorização
-○ Matrizes
-○ Funções
-○ Listas
-○ Arquivos
-○ Plot
+○ Introdução.
+○ Expressões.
+○ Vetores e vetorização.
+○ Matrizes.
+○ Funções.
+○ Listas.
+○ Arquivos.
+○ Plot.
 
-Introdução - O que é R?
+                                Introdução - O que é R?
 
 ○ É um ambiente de programação para análise de dados, cálculos e visualização gráfica;
 ○ De graça!
 ○ Disponível para Windows, MacOS, Linux
 ○ Download e outras informações em: http://cran.r-project.org/
+
+                                Como abrir o R?
+                                
+○ Windows: duplo clique no ícone do R
+○ Linux: usando um terminal, basta digitar o comando R 
+//Digite 'q()' para sair do R.
+
+                                Interpretador do R
+                                
+○ Comandos são digitados no prompt de comando do R “>”.
+○ Esse prompt indica que o R está aguardando que você digite um comando.
+○ Você pode digitar um comando R no prompt e pressionar [Enter] para executá-lo.
+○ Com a tecla “ ” você pode navegar pelo histórico dos comando digitados no prompt.
