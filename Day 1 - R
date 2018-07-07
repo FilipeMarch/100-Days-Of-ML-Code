@@ -1,7 +1,8 @@
 [English] #06 July, 2018
 
 Welcome to my personal 100 days ML-code challenge!
-As this is the first day, I'll be reviewing all the syntax and semantics of the programming language R!
+As this is the first day, I'll be reviewing all the syntax and semantics of the programming language R! 
+All of this will be needed to further improve our machine learning habilities!
 
 ● The basic concepts about the language R: 
 ○ Introduction.
@@ -37,7 +38,22 @@ As this is the first day, I'll be reviewing all the syntax and semantics of the 
                                 
 ○ Type help(command) 
 E.g.: help(print) //It returns the print's documentation
+
+                                 Examples
+                                 
+○ R provides a command that lists examples of uses of other commands:
+E.g.: example(rnorm) //It returns 
+
+                                  R is case sensitive
+                                  
+○ help(rnorm) //It returns the rnorm's documentation.
+○ Help(rnorm) //It will bring an error.
+
+                                  Comments: #
+                                  
+○ Any text or command after # will be desconsidered on execution.
   
+
 
 
 
@@ -83,3 +99,14 @@ Exemplo: ?print //Retorna a documentação da função print
       ou
 ○ Digite help(COMANDO) 
 Exemplo: help(print) 
+
+                                Exemplos
+                                
+○ O R fornece um comando que lista exemplos de usos de outros comandos:
+
+                                Comentários: #
+                                
+○ Qualquer texto ou comando que estiver após # será desconsiderado na execução.
+
+
+  
