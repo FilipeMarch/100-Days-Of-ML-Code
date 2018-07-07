@@ -31,7 +31,13 @@ As this is the first day, I'll be reviewing all the syntax and semantics of the 
 ○ Commands are typed at the R command prompt ">".
 ○ This prompt indicates that R is waiting for you type a command.
 ○ You can type an R command at the prompt and press [Enter] to execute it.
-○ Using the "" key you can navigate through the history of commands typed at the prompt.
+○ Using the "↑" key you can navigate through the history of commands typed at the prompt.
+
+                                 If you need help
+                                
+○ Type help(command) 
+E.g.: help(print) //It returns the print's documentation
+  
 
 
 
@@ -68,4 +74,12 @@ As this is the first day, I'll be reviewing all the syntax and semantics of the 
 ○ Comandos são digitados no prompt de comando do R “>”.
 ○ Esse prompt indica que o R está aguardando que você digite um comando.
 ○ Você pode digitar um comando R no prompt e pressionar [Enter] para executá-lo.
-○ Com a tecla “ ” você pode navegar pelo histórico dos comando digitados no prompt.
+○ Com a tecla “↑” você pode navegar pelo histórico dos comando digitados no prompt.
+
+                                Se precisar de ajuda
+                                
+○ Digite ?COMANDO 
+Exemplo: ?print //Retorna a documentação da função print
+      ou
+○ Digite help(COMANDO) 
+Exemplo: help(print) 
