@@ -14,42 +14,44 @@ All of this will be needed to further improve our machine learning habilities!
 ○ Archives.
 ○ Plot.
 
-                                  Introduction - What's R?
+                                  Introduction
+
+- What's R?
 
 ○ It is a programming environment to deal with data analysis, calculations and graphical visualization;
 ○ Free!
 ○ Available for Windows, MacOS, Linux;
 ○ Download and other info: http://cran.r-project.org/
 
-                                  How to open R?
+- How to open R?
                                 
 ○ Windows: double-click the R icon.
 ○ Linux: using a terminal, just enter the R command.
 //Type 'q()' to quit R.
 
-                                  R interpreter
+- R interpreter
                                   
 ○ Commands are typed at the R command prompt ">".
 ○ This prompt indicates that R is waiting for you type a command.
 ○ You can type an R command at the prompt and press [Enter] to execute it.
 ○ Using the "↑" key you can navigate through the history of commands typed at the prompt.
 
-                                 If you need help
+- If you need help
                                 
 ○ Type help(command) 
 E.g.: help(print) //It returns the print's documentation
 
-                                 Examples
+- Examples
                                  
 ○ R provides a command that lists examples of uses of other commands:
 E.g.: example(rnorm) //It returns 
 
-                                  R is case sensitive
+- R is case sensitive
                                   
 ○ help(rnorm) //It returns the rnorm's documentation.
 ○ Help(rnorm) //It will bring an error.
 
-                                  Comments: #
+- Comments: #
                                   
 ○ Any text or command after # will be desconsidered on execution.
   
@@ -72,27 +74,29 @@ E.g.: example(rnorm) //It returns
 ○ Arquivos.
 ○ Plot.
 
-                                Introdução - O que é R?
+                                Introdução
+
+- O que é R?
 
 ○ É um ambiente de programação para análise de dados, cálculos e visualização gráfica;
 ○ De graça!
 ○ Disponível para Windows, MacOS, Linux
 ○ Download e outras informações em: http://cran.r-project.org/
 
-                                Como abrir o R?
+- Como abrir o R?
                                 
 ○ Windows: duplo clique no ícone do R
 ○ Linux: usando um terminal, basta digitar o comando R 
 //Digite 'q()' para sair do R.
 
-                                Interpretador do R
+- Interpretador do R
                                 
 ○ Comandos são digitados no prompt de comando do R “>”.
 ○ Esse prompt indica que o R está aguardando que você digite um comando.
 ○ Você pode digitar um comando R no prompt e pressionar [Enter] para executá-lo.
 ○ Com a tecla “↑” você pode navegar pelo histórico dos comando digitados no prompt.
 
-                                Se precisar de ajuda
+Se precisar de ajuda
                                 
 ○ Digite ?COMANDO 
 Exemplo: ?print //Retorna a documentação da função print
@@ -100,13 +104,23 @@ Exemplo: ?print //Retorna a documentação da função print
 ○ Digite help(COMANDO) 
 Exemplo: help(print) 
 
-                                Exemplos
+Exemplos
                                 
 ○ O R fornece um comando que lista exemplos de usos de outros comandos:
 
-                                Comentários: #
+- R é case sensitive
+                                  
+○ help(rnorm) //Retorna a documentação de 'rnorm'.
+○ Help(rnorm) //Retorna um erro, afinal não existe nenhuma função chamada 'Help'.
+
+- Comentários: #
                                 
 ○ Qualquer texto ou comando que estiver após # será desconsiderado na execução.
+
+- Comandos em R podem ser separados por “;” ou por uma nova linha [Enter]
+
+○ Se um comando não estiver completo, o prompt do R trocará “>” por “+”
+○ O Sinal “+” continuará no prompt até que o usuário digite o comando completamente ou que as teclas ctrl+c sejam pressionadas 
 
 
   
