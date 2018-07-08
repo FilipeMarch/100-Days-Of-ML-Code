@@ -273,5 +273,29 @@ um número, um vetor é criado com um único elemento:
 [1] 4
 
 - Todos os vetores possuem um modo e um tamanho. O modo determina o tipo de dado armazenado no objeto (vetor).
-○ Exemplo: Character, Logical, Numeric e Complex;
+○ Character, Logical, Numeric e Complex;
+Exemplo:
+> a = 2; b = TRUE; c=1+2i
+> cat(mode(a), mode(b), mode(c))
+[1] numeric logical complex
+
 - O tamanho de um objeto (vetor) é o número de elementos contido nele;
+Exemplo:
+> a=7; length(a)
+[1] 1
+
+- Para criar um vetor simples em R, utilize o comando c(): função de combinação.
+Exemplo:
+> a = c(1,2,3); a
+[1] 1 2 3
+
+- Todos os elementos de um vetor devem ser do mesmo tipo, caso contrário, o R forçará uma conversão;
+> a = c(1, 1+2i, TRUE, "abacaxi")
+> mode(a)
+[1] "character"
+
+- Vetores podem conter um tipo especial: NA (missing value).
+Exemplo:
+> a = c(1,2,3, NA, 4,5,6); a
+[1]  1  2  3 NA  4  5  6
+
