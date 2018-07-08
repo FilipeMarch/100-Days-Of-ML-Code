@@ -321,3 +321,61 @@ Exemplo:
 > a = vector()
 > b = c()
 
+- O tamanho de um vetor pode aumentar simplesmente adicionando novos valores ao vetor.
+Exemplo:
+> b = c()
+> b[6] = 1
+> b
+[1] NA NA NA NA NA  1
+
+- Para reduzir o tamanho de um vetor:
+> a = 3:8; a
+[1] 3 4 5 6 7 8
+> a = a[2:4]; a
+[1] 4 5 6
+
+- Um dos aspectos mais poderosos da linguagem R é a manipulação de vetores;
+- Ao executar um comando sobre um vetor, o R aplicará o comando em cada elemento do vetor;
+Exemplo:
+> a = 2:8; a
+[1] 2 3 4 5 6 7 8
+> a = a + 500; a
+[1] 502 503 504 505 506 507 508
+> b = -1
+> a*b
+[1] -502 -503 -504 -505 -506 -507 -508
+> sqrt(a)
+[1] 22.40536 22.42766 22.44994 22.47221 22.49444 22.51666 22.53886
+
+- Se o usuário tentar somar vetores de tamanhos diferentes, R utilizará a regra de reciclagem, repetindo o vetor mais
+curto até o vetor maior
+Exemplo:
+> a = c(100,200,300,400)
+> b = c(3,5)
+> a+b
+[1] 103 205 303 405
+
+- É possível acessar múltiplos elementos de um vetor.
+Exemplo:
+> a = seq(1,39,5); a #sequência de números entre 1 a 39 de 5 em 5
+[1]  1  6 11 16 21 26 31 36
+> a[c(1,2,5)] #acessando os objetos do vetor 'a' nas posições 1, 2 e 5
+[1]  1  6 21
+> a[c(1:3)] #acessando os objetos do vetor 'a' nas posições de 1 a 3
+[1]  1  6 11
+
+- Valores lógicos podem ser utilizados para acessar índices:
+Exemplo:
+> a = seq(1,39,5); a #sequência de números entre 1 a 39 de 5 em 5
+[1]  1  6 11 16 21 26 31 36
+> a[a%%2==0] #valores de 'a' tais que o resto da divisão de 'a' por 2 seja igual a zero
+[1]  6 16 26 36
+> b = a>7; b #
+[1] FALSE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE
+> a[b]
+[1] 11 16 21 26 31 36
+
+- R permite a criação de conjuntos de dados com mais de uma dimensão;
+- Matrizes são um tipo especial de vetores com duas dimensões;
+- Matrizes/Arrays são, simplesmente, vetores com mais de uma dimensão;
+- Além disso, Matrizes/Arrays possuem um atributo em particular: dimension
