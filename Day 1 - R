@@ -220,7 +220,40 @@ Exemplo:
 > a = 1-5i #complexo
 > a
 [1] 1-5i 
->
-[1]
 
+- Estrutura if-else
+○ if (condição) expressão
+Exemplo:
+> if (6>2) 
++   print("verdade")
+[1] "verdade"
 
+○ if (condição) expressão else expressão
+Exemplo:
+> if (6>8) {
++   print("bloco 1")
++ } else {
++   print("bloco 2")
+}
+[1] "bloco 2"
+
+○ ifelse (condição, sim, não)
+> ifelse  (5>4, "maior", "menor")
+[1] "maior"
+
+- Estrutura while
+○ while (condição) expressão
+Exemplo:
+> a=2
+> while (a<6) {
++   cat("a vale ", a, "\n") 
++   a = a + 1
++ }
+[1] a vale  2 
+[1] a vale  3 
+[1] a vale  4 
+[1] a vale  5 
+
+- Estrutura for
+○ for (variável in sequência) expressão
+Exemplo:
