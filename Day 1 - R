@@ -101,7 +101,7 @@ Examples of mathematical operations.
 ○ Arquivos.
 ○ Plot.
 
-                                Introdução
+                                            Introdução
 
 - O que é R?
 
@@ -159,7 +159,7 @@ Exemplo:
 >source(“C:\caminho\para\arquivo\comandos.R”)
 >source(“outroscomandos.R”)
 
-                                Expressões
+                                            Expressões
 
 Exemplo de operações matemáticas
 
@@ -257,3 +257,21 @@ Exemplo:
 - Estrutura for
 ○ for (variável in sequência) expressão
 Exemplo:
+> for (a in 3:5)
++   print(a)
+[1] 3
+[1] 4
+[1] 5
+
+                                            Vetorização
+                                
+- O objeto mais básico da linguagem R é o vetor. Até mesmo quando uma variável é criada para armazenar 
+um número, um vetor é criado com um único elemento:
+
+> a = 4
+> a
+[1] 4
+
+- Todos os vetores possuem um modo e um tamanho. O modo determina o tipo de dado armazenado no objeto (vetor).
+○ Exemplo: Character, Logical, Numeric e Complex;
+- O tamanho de um objeto (vetor) é o número de elementos contido nele;
