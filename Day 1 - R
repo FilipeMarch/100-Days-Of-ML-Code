@@ -299,3 +299,25 @@ Exemplo:
 > a = c(1,2,3, NA, 4,5,6); a
 [1]  1  2  3 NA  4  5  6
 
+- Além de comando c(), vetores podem também ser criados utilizando comandos de sequência. 
+> 1:5
+[1] 1 2 3 4 5
+> rep(1,3) #repete o número 1 três vezes
+[1] 1 1 1
+> seq(1,9,2) #sequência de números de 1 a 9 de 2 em 2
+[1] 1 3 5 7 9
+> seq(1,17, length=5) #Gerando 5 números reais de 1 a 17
+[1] 1  5  9 13 17
+
+- R permite gerar uma sequência aleatória de valores, utilizando funções de densidade de probabilidade.
+Os comandos para gerar esses valores seguem o formato:
+          r[densidade](...)
+○ rnorm: distribuição normal
+○ runif: distribuição uniforme
+○ rexp: distribuição exponencial
+
+- R permite ainda que vetores vazios sejam criados.
+Exemplo:
+> a = vector()
+> b = c()
+
