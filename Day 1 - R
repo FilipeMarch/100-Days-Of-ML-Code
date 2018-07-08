@@ -53,7 +53,34 @@ E.g.: example(rnorm) //It returns
 
 - Comments: #
                                   
-○ Any text or command after # will be desconsidered on execution.
+○ Any text or command that is after # will be disregarded at runtime.
+
+- Commands in R can be separated by ";" or by a new line [Enter].
+
+○ If a command is not complete, the R prompt will change ">" to "+"
+○ The "+" signal will continue at the prompt until the user enters the command completely or the ctrl+c keys are pressed
+
+- R allows a set of commands to be executed from a file
+
+○ The user creates a text file containing a list of commands to be executed
+○ Within the R section, the user can use the "source" command.
+
+Example:
+> source ("C:\path\to\file\commands.R")
+> source ("othercommands.R")
+
+Examples of mathematical operations.
+
+> 1+1 #addition between two numbers
+[1] 2
+> 0-1 #subtraction between two numbers
+[1] -1
+> 4*2 #multiplication between two numbers
+[1] 8
+> 4/2 #division between two numbers
+[1] 2
+> 15%%4 #resist of the division between two numbers
+[1] 3
   
 
 
@@ -107,6 +134,7 @@ Exemplo: help(print)
 Exemplos
                                 
 ○ O R fornece um comando que lista exemplos de usos de outros comandos:
+Exemplo: example(rnorm) // 
 
 - R é case sensitive
                                   
