@@ -375,7 +375,31 @@ Exemplo:
 > a[b]
 [1] 11 16 21 26 31 36
 
+                                            Matrizes
+
 - R permite a criação de conjuntos de dados com mais de uma dimensão;
 - Matrizes são um tipo especial de vetores com duas dimensões;
 - Matrizes/Arrays são, simplesmente, vetores com mais de uma dimensão;
 - Além disso, Matrizes/Arrays possuem um atributo em particular: dimension
+
+Exemplo:
+> a = c(1,2,3,4,5,6); a 
+[1] 1 2 3 4 5 6
+> dim(a) = c(2,3); a #alterando a dimensão de 'a' para uma matriz com 2 linhas e 3 colunas
+     [,1] [,2] [,3]
+[1,]    1    3    5
+[2,]    2    4    6
+
+- É possível criar um matriz passando um vetor de elementos.
+Exemplo:
+> a = matrix(c(1,100,2,200,3,300), 2, 3); a
+     [,1] [,2] [,3]
+[1,]    1    2    3
+[2,]  100  200  300
+
+- A matriz sempre é criada preenchendo primeiro as colunas. Você pode alterar para preencher primeiro as linhas.
+Exemplo:
+> a = matrix(c(1,100,2,200,3,300), 2, 3, byrow=T); a
+     [,1] [,2] [,3]
+[1,]    1    2    3
+[2,]  100  200  300
