@@ -79,7 +79,7 @@ Examples of mathematical operations.
 [1] 8
 > 4/2 #division between two numbers
 [1] 2
-> 15%%4 #resist of the division between two numbers
+> 15%%4 #rest of the division between two numbers
 [1] 3
   
 
@@ -159,6 +159,8 @@ Exemplo:
 >source(“C:\caminho\para\arquivo\comandos.R”)
 >source(“outroscomandos.R”)
 
+                                Expressões
+
 Exemplo de operações matemáticas
 
 > 1+1 #adição entre dois números
@@ -171,4 +173,54 @@ Exemplo de operações matemáticas
 [1] 2
 > 15%%4 #resto da divisão entre dois números
 [1] 3
+> 5**2 #five to the power two 
+[1] 25
+> 5^3 #five to the power three
+
+- Expressões Lógicas: Verdadeiro ou Falso
+
+○ Verdadeiro: TRUE ou T
+○ Falso: FALSE ou F
+
+Exemplo:
+> 7 < 9
+[1] TRUE
+> 3 > 5
+[1] FALSE
+> 2 + 1 == 8
+[1] FALSE
+> F == FALSE
+[1] TRUE
+
+- R permite armazenar valores em variáveis. Comandos de atribuição:
+○ “=”
+○ “<-”
+○ “->”
+Exemplo:
+> x = 1
+> y -> 2
+> 3 <- z
+> x + y + z
+[1] 6
+
+- R não é uma linguagem fortemente tipada, i.e., durante a execução do código, uma variável pode assumir qualquer valor. 
+Exemplo:
+> a = 7 #numérico
+> a
+[1] 7
+> a = 3.1415 #numérico
+> a
+[1] 3.1415
+> a <- 'T' #caracter
+> a
+[1] "T"
+> a <- F #booleano (lógico)
+> a
+[1] FALSE
+> a = 1-5i #complexo
+> a
+[1] 1-5i 
+>
+[1]
+
 
