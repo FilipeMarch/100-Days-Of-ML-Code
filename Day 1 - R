@@ -122,5 +122,25 @@ Exemplos
 ○ Se um comando não estiver completo, o prompt do R trocará “>” por “+”
 ○ O Sinal “+” continuará no prompt até que o usuário digite o comando completamente ou que as teclas ctrl+c sejam pressionadas 
 
+- R permite que um conjunto de comandos seja executado partir de um arquivo
 
-  
+○ O usuário cria um arquivo de texto contendo uma lista de comandos a ser executado
+○ Dentro da seção do R, o usuário pode usar o comando “source”. 
+
+Exemplo:
+>source(“C:\caminho\para\arquivo\comandos.R”)
+>source(“outroscomandos.R”)
+
+Exemplo de operações matemáticas
+
+> 1+1 #adição entre dois números
+[1] 2 
+> 0-1 #subtração entre dois números
+[1] -1
+> 4*2 #multiplicação entre dois números
+[1] 8
+> 4/2 #divisão entre dois números
+[1] 2
+> 15%%4 #resto da divisão entre dois números
+[1] 3
+
